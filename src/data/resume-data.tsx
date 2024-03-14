@@ -120,7 +120,7 @@ export const RESUME_DATA = {
       techStack: [
         "A",
         "Typpt",
-        "Next.js",
+        "Next.js"
       ]
     }
     ]
