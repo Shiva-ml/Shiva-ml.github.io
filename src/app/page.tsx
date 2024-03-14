@@ -154,6 +154,17 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
+                <span className="inline-flex gap-x-1">
+                        {work.badges.map((badge) => (
+                          <Badge
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={badge}
+                          >
+                            {badge}
+                          </Badge>
+                        ))}
+                      </span>
               </Card>
             );
           })}
