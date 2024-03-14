@@ -59,6 +59,15 @@ export const RESUME_DATA = {
       end: "2010",
     },
   ],
+  skills: [
+    "JavaScript",
+    "TypeScript",
+    "React/Next.js/Remix",
+    "Node.js",
+    "GraphQL",
+    "Relay",
+    "WebRTC",
+  ],
   work: [
     {
       company: "Parabol",
@@ -104,15 +113,7 @@ export const RESUME_DATA = {
       description: "Creating and testing software for LTE base stations",
     },
   ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
-  ],
+  
   projects: [
     {
       title: "Consultly",
