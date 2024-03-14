@@ -113,6 +113,17 @@ export const RESUME_DATA = {
       description: "Creating and testing software for LTE base stations",
     },
   ],
+
+  Fun: [
+    {
+      title: "AWS,
+      techStack: [
+        "A",
+        "Typpt",
+        "Next.js",
+      ]
+    }
+    ]
   
   projects: [
     {
