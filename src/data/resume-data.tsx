@@ -57,6 +57,15 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Control systems engineering and Robotics",
       start: "2007",
       end: "2010",
+      skills: [
+    "JavaScript",
+    "TypeScript",
+    "React/Next.js/Remix",
+    "Node.js",
+    "GraphQL",
+    "Relay",
+    "WebRTC",
+  ]
     },
   ],
   work: [
