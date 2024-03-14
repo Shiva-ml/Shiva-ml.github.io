@@ -114,7 +114,7 @@ export const RESUME_DATA = {
     },
   ],
 
-  Fun: [
+  Projects: [
     {
       title: "AWS,
       techStack: [
