@@ -56,3 +56,4 @@ export function ProjectCard({ title, description, tags, link }: Props) {
     </Card>
   );
 }
+
