@@ -16,8 +16,8 @@ interface Props {
 
 export function ProjectCard({ title, description, tags, link }: Props) {
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
-      <CardHeader className="">
+    <Card className="flex flex-col sm:flex-row items-start sm:items-center justify-between border border-muted p-3">
+      <div className="flex-grow">
         <div className="space-y-1">
           <CardTitle className="text-base">
             {link ? (
@@ -40,20 +40,18 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {description}
           </CardDescription>
         </div>
-      </CardHeader>
-      <CardContent className="mt-auto flex">
-        <div className="mt-2 flex flex-wrap gap-1">
-          {tags.map((tag) => (
-            <Badge
-              className="px-1 py-0 text-[10px]"
-              variant="secondary"
-              key={tag}
-            >
-              {tag}
-            </Badge>
-          ))}
-        </div>
-      </CardContent>
+      </div>
+      <div className="flex mt-2 sm:mt-0 flex-wrap gap-1">
+        {tags.map((tag) => (
+          <Badge
+            className="px-1 py-0 text-[10px]"
+            variant="secondary"
+            key={tag}
+          >
+            {tag}
+          </Badge>
+        ))}
+      </div>
     </Card>
   );
 }
