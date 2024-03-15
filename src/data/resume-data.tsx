@@ -20,7 +20,7 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Shiva Subramanyam",
+  name: "Bartosz Jarocki",
   initials: "BJ",
   location: "Wrocław, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Wrocław",
@@ -57,17 +57,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Control systems engineering and Robotics",
       start: "2007",
       end: "2010",
-      badges=["h","gh"]
     },
-  ],
-  skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
   ],
   work: [
     {
@@ -114,8 +104,15 @@ export const RESUME_DATA = {
       description: "Creating and testing software for LTE base stations",
     },
   ],
-
-  
+  skills: [
+    "JavaScript",
+    "TypeScript",
+    "React/Next.js/Remix",
+    "Node.js",
+    "GraphQL",
+    "Relay",
+    "WebRTC",
+  ],
   projects: [
     {
       title: "Consultly",
