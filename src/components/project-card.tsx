@@ -16,15 +16,14 @@ interface Props {
 
 export function ProjectCard({ title, description, tags, link }: Props) {
   return (
-    <Card className="flex flex-col sm:flex-row items-start sm:items-center justify-between border border-muted p-3">
-      <div className="flex-grow">
+    <Card className="flex flex-col overflow-hidden border border-muted p-3">
+      <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="text-base">
             {link ? (
               <a
                 href={link}
                 target="_blank"
-                rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 hover:underline"
               >
                 {title}{" "}
@@ -41,19 +40,20 @@ export function ProjectCard({ title, description, tags, link }: Props) {
             {description}
           </CardDescription>
         </div>
-      </div>
-      <div className="flex mt-2 sm:mt-0 flex-wrap gap-1">
-        {tags.map((tag) => (
-          <Badge
-            className="px-1 py-0 text-[10px]"
-            variant="secondary"
-            key={tag}
-          >
-            {tag}
-          </Badge>
-        ))}
-      </div>
+      </CardHeader>
+      <CardContent className="mt-auto flex">
+        <div className="mt-2 flex flex-wrap gap-1">
+          {tags.map((tag) => (
+            <Badge
+              className="px-1 py-0 text-[10px]"
+              variant="secondary"
+              key={tag}
+            >
+              {tag}
+            </Badge>
+          ))}
+        </div>
+      </CardContent>
     </Card>
   );
 }
-
