@@ -153,6 +153,7 @@ export default function Page() {
                       {education.start} - {education.end}
                     </div>
                   </div>
+                  <CardContent className="mt-2">{education.degree}</CardContent>
                   {education.badges && (
                     <div className="mt-1">
                       {education.badges.map((badge) => (
