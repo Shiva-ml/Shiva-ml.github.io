@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "IAM Engineer , Programmer , Researcher",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Hi there! I'm a IAM engineer, developer and AI/ML Researcher. Currently,  i am working as Systems Engineer at TCS where i am  implementing secure, scalable and robust secrets management solutions. I also build AI/ML applications for Cybersec wherever applicable.",
   avatarUrl: "https://avatars.githubusercontent.com/u/107316558?s=400&u=624d2330d324c22f0e28756d952273c121ae87ee&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
