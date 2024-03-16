@@ -140,37 +140,38 @@ export default function Page() {
    
 
         <Section>
-            <h2 className="text-xl font-bold">Education</h2>
-            {RESUME_DATA.education.map((education) => {
-              return (
-                <Card key={education.school}>
-                  <CardHeader>
-                    <div className="flex items-center justify-between gap-x-2 text-base">
-                      <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                        {education.degree} at {education.school}
-                        {education.badges && (
-                          <span className="inline-flex gap-x-1">
-                            {education.badges.map((badge) => (
-                              <Badge
-                                variant="secondary"
-                                className="align-middle text-xs"
-                                key={badge}
-                              >
-                                {badge}
-                              </Badge>
-                            ))}
-                          </span>
-                        )}
-                      </h3>
-                      <div className="text-sm tabular-nums text-gray-500">
-                        {education.start} - {education.end}
-                      </div>
+          <h2 className="text-xl font-bold">Education</h2>
+          {RESUME_DATA.education.map((education) => {
+            return (
+              <Card key={education.school}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      {education.degree} at {education.school}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {education.start} - {education.end}
                     </div>
-                  </CardHeader>
-                </Card>
-              );
-            })}
+                  </div>
+                  {education.badges && (
+                    <div className="mt-1">
+                      {education.badges.map((badge) => (
+                        <Badge
+                          variant="secondary"
+                          className="align-middle text-xs mr-1 mb-1"
+                          key={badge}
+                        >
+                          {badge}
+                        </Badge>
+                      ))}
+                    </div>
+                  )}
+                </CardHeader>
+              </Card>
+            );
+          })}
         </Section>
+
 
         <Section>
           <h2 className="text-xl font-bold">Skills</h2>
