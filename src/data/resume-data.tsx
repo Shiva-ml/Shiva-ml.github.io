@@ -57,6 +57,7 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Control systems engineering and Robotics",
       start: "2007",
       end: "2010",
+      badges: ["Bionic Design","metaheuristcs","optimization","petrubation theory","solid mechanics","suroggate optimization","lattice structures","micro level optimization"]
     },
   ],
   work: [
