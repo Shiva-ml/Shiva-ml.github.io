@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "IAM Engineer , Programmer , Researcher",
   summary:
-    "Hi there! I'm a IAM engineer, developer and AI/ML Researcher. Currently,  i am working as Systems Engineer at TCS where i am  implementing secure, scalable and robust secrets management solutions. I also build AI/ML applications for Cybersec wherever applicable.",
+      "Hey there! I'm into IAM, software dev, and AI/ML research. Right now, I'm rocking it as a Systems Engineer at TCS, focusing on developing & implementing PAM and secrets management Solutions. I also whip up AI/ML apps for cybersecurity when the need arises. Cool, right?"
   avatarUrl: "https://avatars.githubusercontent.com/u/107316558?s=400&u=624d2330d324c22f0e28756d952273c121ae87ee&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
