@@ -87,13 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar
-                sx={{
-                  width: 50,
-                  height: 40, // Adjust the height as needed
-                  borderRadius: 8, // Adjust the borderRadius to change the roundness of the corners
-                }}
-              >
+          <Avatar className="rectangle-avatar" sx={{ width: 50, height: 40 }} > // Adjust the width and height as needed>
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
