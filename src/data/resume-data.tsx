@@ -20,7 +20,7 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Shiva Subramanyam",
+  name: "Shiva",
   initials: "SS",
   location: "Bangalore, Karnataka, India",
   locationLink: "https://maps.app.goo.gl/wymJsdvmqLG65qLZA",
