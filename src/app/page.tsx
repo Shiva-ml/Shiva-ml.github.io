@@ -169,22 +169,19 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className="print:flex flex-wrap -mx-4">
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
-                <div key={project.title} className="w-full print:w-full mb-4 print:mb-8">
-                  <h2 className="text-xl font-bold">{project.title}</h2>
-                  <p>{project.description}</p>
-                  <div className="flex flex-wrap">
-                    {project.techStack.map((tech) => (
-                      <span key={tech} className="mr-2">{tech}</span>
-                    ))}
-                  </div>
-                  {project.link && <a href={project.link.href}>{project.link.text}</a>}
-                </div>
+                <ProjectCard
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  tags={project.techStack}
+                  link={"link" in project ? project.link.href : undefined}
+                />
               );
             })}
-          </div>      
+          </div>
         </Section>
       </section>
 
