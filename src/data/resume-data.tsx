@@ -22,8 +22,8 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Shiva Subramanyam",
   initials: "SS",
-  location: "Wrocław, Poland, CET",
-  locationLink: "",
+  location: "Bangalore, Karnataka, India",
+  locationLink: "https://maps.app.goo.gl/wymJsdvmqLG65qLZA",
   about:
     "IAM Engineer , Programmer , Researcher",
   summary:
