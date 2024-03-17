@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       start: "May 2022",
       end: "Dec 2020",
       description:
-        "At CIPD, a MSME business incubator, I developed software dev tools and methods to support nature-inspired designs for hardcore product startups. I did 3 things end to end. 1)  A skeletal extraction tool and method to mimic bone's natural structure for aerospace design.  2) A GUI to extract design parameters from 2D structure images and visualize properties' responses to parameter changes. 3) Showcased "e" as a good metric to pick the best lattice structure from 1000’s for microstructure design.",
+        "At CIPD, a MSME business incubator, I developed software dev tools and methods to support nature-inspired designs for hardcore product startups. I did 3 things end to end. 1)  A skeletal extraction tool and method to mimic bone's natural structure for aerospace design.  2) A GUI to extract design parameters from 2D structure images and visualize properties' responses to parameter changes. 3) Showcased 'e' as a good metric to pick the best lattice structure from 1000’s for microstructure design.",
     },
     {
       company: "Clevertech",
