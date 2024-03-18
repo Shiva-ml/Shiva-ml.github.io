@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "IAM Engineer , Programmer , Researcher",
   summary:
-    "Hey there! I'm into IAM, coding, and AI/ML research. Right now, I'm rocking it at TCS, focusing on developing & implementing PAM & secrets management solutions. I also whip up AI/ML models for cybersecurity when the need arises. Cool, right?",
+    "Hey there! I'm into IAM, coding, and AI/ML research. Right now, I'm working at TCS, focusing on developing & implementing PAM & secrets management solutions. I also whip up AI/ML models for cybersecurity when the need arises. Cool, right?",
   avatarUrl: "https://avatars.githubusercontent.com/u/107316558?s=400&u=624d2330d324c22f0e28756d952273c121ae87ee&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -62,47 +62,26 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Infokalash IT Services",
+      link: "https://clevertech.biz",
+      badges: ["python","AI/ML","Research","agile methodology","fuzzy similarity","ETL","Docker"],
+      title: "ML Engineer",
+      logo: ClevertechLogo,
+      start: "Jun 2022",
+      end: "April 2023",
+      description:
+        "Led R&D for detecting data duplication in MDM product, collaborating with stakeholders. Worked spanned in 3 areas: 1) Created user stories using Scrum/Kanban in Jira/ClickUp and led agile ceremonies. 2) Developed python packages for analyzing KPI's , and implemented NLP based fuzzy similarity, supervised ML algorithms. 3)Designed a solid curriculum and trained a team of 5 to solve MDM data science problems.",
+    },
+    {
       company: "Center for innovation and Product development",
       link: "",
       badges: ["Software dev for design", "Optimization"," Mathematics"],
       title: "Consultant - Research",
       logo: ParabolLogo,
-      start: "May 2022",
-      end: "Dec 2020",
+      start: "Dec 2020",
+      end: "May 2022",
       description:
         "At CIPD, a MSME business incubator, I developed software dev tools and methods to support nature-inspired designs for hardcore product startups. I did 3 things end to end. 1)  A skeletal extraction tool and method to mimic bone's natural structure for aerospace design.  2) A GUI to extract design parameters from 2D structure images and visualize properties' responses to parameter changes. 3) Showcased 'e' as a good metric to pick the best lattice structure from 1000’s for microstructure design.",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
     },
   ],
   skills: [
