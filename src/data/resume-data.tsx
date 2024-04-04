@@ -27,44 +27,39 @@ export const RESUME_DATA = {
   about:
     "IAM Engineer , Programmer , Researcher",
   summary:
-    "Hey there! I'm into IAM, coding, and AI/ML research. Right now, I'm working at TCS, focusing on developing & implementing PAM & secrets management solutions. I also whip up AI/ML models for cybersecurity when the need arises. Cool, right?",
+    "Hey there! I'm into IAM, coding, and AI/ML research. Right now, I'm working at TCS, focusing on developing & implementing PAM & secrets management solutions. I also whip up AI/ML models for cybersecurity when the need arises.",
   avatarUrl: "https://avatars.githubusercontent.com/u/107316558?s=400&u=624d2330d324c22f0e28756d952273c121ae87ee&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "shiva.nsubramanyam@gmail.com",
+    tel: "+91-9108505979",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Shiva-ml",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "linkedin.com/in/shiva-n-s/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-      badges: ["Bionic Design","metaheuristcs","optimization","petrubation theory","solid mechanics","suroggate optimization","lattice structures","micro level optimization"]
+      school: "KLE Technological University",
+      degree: "Bachelor's Degree in Mechanical engineering",
+      start: "2016",
+      end: "2020",
+      badges: ["Bionic Design","metaheuristcs","optimization","Python","Matlab","Java","petrubation theory","solid mechanics","suroggate optimization","lattice structures"]
     },
   ],
   work: [
     {
       company: "Infokalash IT Services",
-      link: "https://clevertech.biz",
-      badges: ["python","AI/ML","Research","agile methodology","fuzzy similarity","ETL","Docker"],
+      link: "https://www.infokalash.com/",
+      badges: ["python","AI/ML","Research","agile methodology","Scrum"],
       title: "ML Engineer",
       logo: ClevertechLogo,
       start: "Jun 2022",
@@ -75,7 +70,7 @@ export const RESUME_DATA = {
     {
       company: "Center for innovation and Product development",
       link: "",
-      badges: ["Software dev for design", "Optimization"," Mathematics"],
+      badges: ["Software dev for design","Software testing", "Optimization"," Mathematics"],
       title: "Consultant - Research",
       logo: ParabolLogo,
       start: "Dec 2020",
@@ -95,164 +90,21 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "NLP Code Base",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
+        "NLP",
+        "Feature engineering techniques",
+        "END to END Pipe line",
         "Vite",
         "GraphQL",
         "WebRTC",
       ],
-      description: "A platform to build and grow your online business",
+      description: "A NLP Code base pertaining to primiliminary analysis techniques on raw data, cleaning,feature extraction, rule based matching, model base line checker",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "NLP Code Base",
+        href: "https://colab.research.google.com/drive/1rZKOVUxK7OrDGn8XLfJi0P_pVkmcEGjk?usp=sharing",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
