@@ -65,7 +65,7 @@ export const RESUME_DATA = {
       start: "Jun 2022",
       end: "April 2023",
       description:
-        "Led R&D for building data de-duplication MVP's in MDM product. Worked spanned in 4 areas: 1)leading agile ceremonies and creating user stories using Scrum/Kanban in Jira/ClickUp. 2) implementing NLP based fuzzy similarity & supervised ML algorithmsfor data deduplication. 3) Developing python packages for automating day2day data preprocessing tasks. 4) Designing a solid curriculum and training a team of 5 to solve MDM data science problems.",
+        "Lead R&D for building data de-duplication MVP's in MDM product. Work spanned in 4 areas: 1)leading agile ceremonies and creating user stories using Scrum/Kanban in Jira/ClickUp. 2) implementing NLP based fuzzy similarity & supervised ML algorithmsfor data deduplication. 3) Developing python packages for automating day2day data preprocessing tasks. 4) Designing a solid curriculum and training a team of 5 to solve MDM data science problems.",
     },
     {
       company: "Center for innovation and Product development",
