@@ -49,7 +49,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "KLE Technological University",
-      degree: "Bachelor's Degree in Mechanical engineering",
+      degree: "Bachelor's Degree in Mechanical engineering (concentration: Nature inspired design, Coding, Mathematics)",
       start: "2016",
       end: "2020",
       badges: ["Bionic Design","metaheuristcs","optimization","Python","Matlab","Java","petrubation theory","solid mechanics","suroggate optimization","lattice structures"]
@@ -80,26 +80,29 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Cyberark",
+    "Hashicorp vault",
+    "Beyond trust",
+    "Python",
+    "Powershell",
+    "Java",
+    "MySql",
+    "AI/ML MVP's"
   ],
   projects: [
     {
       title: "NLP Code Base",
       techStack: [
         "NLP",
-        "Feature engineering techniques",
-        "END to END Pipe line",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Spacy",
+        "NLTK"
+        "word2vec",
+        "BeautifulSoup",
+        "WordCloud",
+        "Sci-kit learn"
+        
       ],
-      description: "A NLP Code base pertaining to primiliminary analysis techniques on raw data, cleaning,feature extraction, rule based matching, model base line checker",
+      description: "A NLP Code base pertaining to primiliminary analysis techniques on raw data, cleaning,feature extraction,pos tagging,dependency parsing, rule based matching and basic models base line checking.",
       logo: ConsultlyLogo,
       link: {
         label: "NLP Code Base",
