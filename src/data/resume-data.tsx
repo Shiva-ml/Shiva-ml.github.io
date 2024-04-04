@@ -95,12 +95,11 @@ export const RESUME_DATA = {
       techStack: [
         "NLP",
         "Spacy",
-        "NLTK"
+        "NLTK",
         "word2vec",
         "BeautifulSoup",
         "WordCloud",
-        "Sci-kit learn"
-        
+        "Sci-kit learn",
       ],
       description: "A NLP Code base pertaining to primiliminary analysis techniques on raw data, cleaning,feature extraction,pos tagging,dependency parsing, rule based matching and basic models base line checking.",
       logo: ConsultlyLogo,
