@@ -1,0 +1,10 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "com.gibretailmobileapp",
+        "package_name": "com.gibretailmobileap",
+        "sha256_cert_fingerprints": [
+          "SHA256: D6:4E:6D:60:47:3B:49:7D:00:C9:D9:D6:EF:4D:92:00:7B:11:1A:AD:5B:C5:EF:1A:21:A6:9F:69:BA:9A:18:F0"
+        ]
+      }
+}] 
